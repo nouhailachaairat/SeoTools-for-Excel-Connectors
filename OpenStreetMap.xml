@@ -55,7 +55,7 @@
       <Resource Id="HttpSettings"/>
       <Fetch.Url>
         <![CDATA[
-				https://nominatim.openstreetmap.org/reverse?lat=@(Model.Latitude)&lon=@(Model.Longitude)&format=json
+				https://nominatim.openstreetmap.org/reverse?lat=@(Model.Latitude)&lon=@(Model.Longitude)&format=json&accept-language=fr
         ]]>
       </Fetch.Url>
     </Fetch>
